@@ -186,16 +186,16 @@ namespace WindowsFormsApplication3
         }
 
 
-        private void Textbox1(object sender, EventArgs e)
+        private void TextBox1(object sender, EventArgs e)
         {
 
         }
 
-        private void Textbox2(object sender, EventArgs e)
+        private void TextBox2(object sender, EventArgs e)
         {
 
         }
-        private void Textbox3(object sender, EventArgs e)
+        private void TextBox3(object sender, EventArgs e)
         {
 
         }
@@ -254,11 +254,11 @@ namespace WindowsFormsApplication3
         {
 
         }
-        private void Textbox4(object sender, EventArgs e)
+        private void TextBox4(object sender, EventArgs e)
         {
 
         }
-        private void Textbox5(object sender, EventArgs e)
+        private void TextBox5(object sender, EventArgs e)
         {
 
         }

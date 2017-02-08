@@ -35,6 +35,7 @@
             this.bunifuElipse1 = new ns1.BunifuElipse(this.components);
             this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
             this.slide1 = new System.Windows.Forms.Panel();
+            this.labelreg = new System.Windows.Forms.Label();
             this.bunifuCustomLabel8 = new ns1.BunifuCustomLabel();
             this.bunifuCustomLabel3 = new ns1.BunifuCustomLabel();
             this.bunifuCustomLabel2 = new ns1.BunifuCustomLabel();
@@ -60,7 +61,6 @@
             this.bunifuImageButton1 = new ns1.BunifuImageButton();
             this.bunifuImageButton2 = new ns1.BunifuImageButton();
             this.bunifuTransition2 = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.labelreg = new System.Windows.Forms.Label();
             this.slide1.SuspendLayout();
             this.slide2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
@@ -130,6 +130,18 @@
             this.slide1.TabIndex = 4;
             this.slide1.Paint += new System.Windows.Forms.PaintEventHandler(this.Slide1);
             // 
+            // labelreg
+            // 
+            this.labelreg.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.labelreg, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.labelreg, BunifuAnimatorNS.DecorationType.None);
+            this.labelreg.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelreg.ForeColor = System.Drawing.Color.White;
+            this.labelreg.Location = new System.Drawing.Point(36, 322);
+            this.labelreg.Name = "labelreg";
+            this.labelreg.Size = new System.Drawing.Size(0, 22);
+            this.labelreg.TabIndex = 7;
+            // 
             // bunifuCustomLabel8
             // 
             this.bunifuCustomLabel8.AutoSize = true;
@@ -139,7 +151,7 @@
             this.bunifuCustomLabel8.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel8.Location = new System.Drawing.Point(32, 247);
             this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
-            this.bunifuCustomLabel8.Size = new System.Drawing.Size(46, 18);
+            this.bunifuCustomLabel8.Size = new System.Drawing.Size(56, 22);
             this.bunifuCustomLabel8.TabIndex = 6;
             this.bunifuCustomLabel8.Text = "Email";
             this.bunifuCustomLabel8.Click += new System.EventHandler(this.SmallLabel2);
@@ -153,7 +165,7 @@
             this.bunifuCustomLabel3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel3.Location = new System.Drawing.Point(32, 164);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(68, 18);
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(83, 22);
             this.bunifuCustomLabel3.TabIndex = 4;
             this.bunifuCustomLabel3.Text = "Password";
             this.bunifuCustomLabel3.Click += new System.EventHandler(this.SmallLabel3);
@@ -167,7 +179,7 @@
             this.bunifuCustomLabel2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel2.Location = new System.Drawing.Point(32, 78);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(71, 18);
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(87, 22);
             this.bunifuCustomLabel2.TabIndex = 3;
             this.bunifuCustomLabel2.Text = "Username";
             this.bunifuCustomLabel2.Click += new System.EventHandler(this.SmallLabel1);
@@ -190,7 +202,7 @@
             this.regemailadress.Size = new System.Drawing.Size(387, 44);
             this.regemailadress.TabIndex = 2;
             this.regemailadress.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.regemailadress.OnValueChanged += new System.EventHandler(this.Textbox3);
+            this.regemailadress.OnValueChanged += new System.EventHandler(this.TextBox3);
             // 
             // regpassword
             // 
@@ -210,7 +222,7 @@
             this.regpassword.Size = new System.Drawing.Size(387, 44);
             this.regpassword.TabIndex = 2;
             this.regpassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.regpassword.OnValueChanged += new System.EventHandler(this.Textbox2);
+            this.regpassword.OnValueChanged += new System.EventHandler(this.TextBox2);
             // 
             // regusername
             // 
@@ -230,7 +242,7 @@
             this.regusername.Size = new System.Drawing.Size(387, 44);
             this.regusername.TabIndex = 1;
             this.regusername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.regusername.OnValueChanged += new System.EventHandler(this.Textbox1);
+            this.regusername.OnValueChanged += new System.EventHandler(this.TextBox1);
             // 
             // bunifuCustomLabel1
             // 
@@ -241,7 +253,7 @@
             this.bunifuCustomLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(154, 27);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(112, 29);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(134, 36);
             this.bunifuCustomLabel1.TabIndex = 0;
             this.bunifuCustomLabel1.Text = "Register";
             this.bunifuCustomLabel1.Click += new System.EventHandler(this.BigLabel2);
@@ -264,7 +276,7 @@
             this.UserLoginPass.Size = new System.Drawing.Size(387, 44);
             this.UserLoginPass.TabIndex = 5;
             this.UserLoginPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.UserLoginPass.OnValueChanged += new System.EventHandler(this.Textbox5);
+            this.UserLoginPass.OnValueChanged += new System.EventHandler(this.TextBox5);
             // 
             // slide2
             // 
@@ -295,7 +307,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(58, 307);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 18);
+            this.label2.Size = new System.Drawing.Size(0, 22);
             this.label2.TabIndex = 9;
             // 
             // bunifuCustomLabel10
@@ -307,7 +319,7 @@
             this.bunifuCustomLabel10.ForeColor = System.Drawing.Color.White;
             this.bunifuCustomLabel10.Location = new System.Drawing.Point(59, 307);
             this.bunifuCustomLabel10.Name = "bunifuCustomLabel10";
-            this.bunifuCustomLabel10.Size = new System.Drawing.Size(0, 18);
+            this.bunifuCustomLabel10.Size = new System.Drawing.Size(0, 22);
             this.bunifuCustomLabel10.TabIndex = 8;
             // 
             // label1
@@ -318,7 +330,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(192, 307);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 24);
+            this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 7;
             // 
             // bunifuCustomLabel9
@@ -330,7 +342,7 @@
             this.bunifuCustomLabel9.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel9.Location = new System.Drawing.Point(167, 303);
             this.bunifuCustomLabel9.Name = "bunifuCustomLabel9";
-            this.bunifuCustomLabel9.Size = new System.Drawing.Size(0, 28);
+            this.bunifuCustomLabel9.Size = new System.Drawing.Size(0, 37);
             this.bunifuCustomLabel9.TabIndex = 6;
             // 
             // bunifuCustomLabel4
@@ -342,7 +354,7 @@
             this.bunifuCustomLabel4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel4.Location = new System.Drawing.Point(44, 221);
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(68, 18);
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(83, 22);
             this.bunifuCustomLabel4.TabIndex = 4;
             this.bunifuCustomLabel4.Text = "Password";
             this.bunifuCustomLabel4.Click += new System.EventHandler(this.SmallLabel5);
@@ -356,7 +368,7 @@
             this.bunifuCustomLabel5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel5.Location = new System.Drawing.Point(44, 83);
             this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(117, 18);
+            this.bunifuCustomLabel5.Size = new System.Drawing.Size(143, 22);
             this.bunifuCustomLabel5.TabIndex = 3;
             this.bunifuCustomLabel5.Text = "Username/Email";
             this.bunifuCustomLabel5.Click += new System.EventHandler(this.SmallLabel4);
@@ -418,7 +430,7 @@
             this.UserLogin.Size = new System.Drawing.Size(387, 44);
             this.UserLogin.TabIndex = 1;
             this.UserLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.UserLogin.OnValueChanged += new System.EventHandler(this.Textbox4);
+            this.UserLogin.OnValueChanged += new System.EventHandler(this.TextBox4);
             // 
             // bunifuCustomLabel6
             // 
@@ -429,7 +441,7 @@
             this.bunifuCustomLabel6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel6.Location = new System.Drawing.Point(176, 27);
             this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(85, 29);
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(105, 36);
             this.bunifuCustomLabel6.TabIndex = 0;
             this.bunifuCustomLabel6.Text = "Log In";
             this.bunifuCustomLabel6.Click += new System.EventHandler(this.BigLabel3);
@@ -464,7 +476,7 @@
             this.bunifuCustomLabel7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel7.Location = new System.Drawing.Point(93, 8);
             this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
-            this.bunifuCustomLabel7.Size = new System.Drawing.Size(305, 29);
+            this.bunifuCustomLabel7.Size = new System.Drawing.Size(371, 36);
             this.bunifuCustomLabel7.TabIndex = 6;
             this.bunifuCustomLabel7.Text = "Nasa Information Service";
             this.bunifuCustomLabel7.Click += new System.EventHandler(this.BigLabel1);
@@ -601,17 +613,6 @@
             animation1.TimeCoeff = 0F;
             animation1.TransparencyCoeff = 0F;
             this.bunifuTransition2.DefaultAnimation = animation1;
-            // 
-            // labelreg
-            // 
-            this.labelreg.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.labelreg, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.labelreg, BunifuAnimatorNS.DecorationType.None);
-            this.labelreg.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelreg.Location = new System.Drawing.Point(36, 322);
-            this.labelreg.Name = "labelreg";
-            this.labelreg.Size = new System.Drawing.Size(0, 18);
-            this.labelreg.TabIndex = 7;
             // 
             // Form1
             // 
