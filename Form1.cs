@@ -59,6 +59,7 @@ namespace WindowsFormsApplication3
 
         private bool validate_register(string reguser, string regpass, string regemail)
         {
+            bool result = validate_username(reguser);
             db_connection();
             MySqlCommand cmd = new MySqlCommand();
             cmd.CommandText = "INSERT INTO members (`Username`, `Password`, `Email`) VALUES (@username, @password, @email)";
@@ -67,13 +68,43 @@ namespace WindowsFormsApplication3
             cmd.Parameters.AddWithValue("@email", regemail);
             cmd.Connection = connect;
             MySqlDataReader register = cmd.ExecuteReader();
-            connect.Close();
+            if (result)
+            {
+                connect.Close();
                 return true;
+
             }
+            else
+            {
+                connect.Close();
+                return false;
+            }
+        }
+
+        private bool validate_username(string reguser)
+        {
+            db_connection();
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.CommandText = "SELECT* FROM members WHERE username = @username";
+            cmd.Parameters.AddWithValue("@username", reguser);
+            cmd.Connection = connect;
+            object username = cmd.ExecuteScalar();
+            MySqlDataReader check = cmd.ExecuteReader();
+            if (username == null)
+            {
+                connect.Close();
+                return true;
+
+            }
+            else
+            {
+                connect.Close();
+                return false;
+            }
+        }
 
 
-
-    protected override void WndProc(ref Message m)
+        protected override void WndProc(ref Message m)
         {
             switch (m.Msg)
             {
@@ -182,7 +213,7 @@ namespace WindowsFormsApplication3
                 labelreg.Text = ("Registration complete!");
             }
             else
-                labelreg.Text = ("The username or password is incorrect!");
+                labelreg.Text = ("Username is already taken.");
         }
 
 
