@@ -17,7 +17,6 @@ namespace WindowsFormsApplication3
         {
             private string conn;
             private MySqlConnection connect;
-        bool exists = false;
         public Form1()
             {
             InitializeComponent();            
@@ -62,17 +61,15 @@ namespace WindowsFormsApplication3
         {
             db_connection();
             MySqlCommand cmd = new MySqlCommand();
-            cmd.Connection = connect;
             cmd.CommandText = "INSERT INTO members (`Username`, `Password`, `Email`) VALUES (@username, @password, @email)";
-            cmd.CommandText = "SELECT count(*) FROM `members` WHERE Username= @Username";
             cmd.Parameters.AddWithValue("@username", reguser);
             cmd.Parameters.AddWithValue("@password", regpass);
             cmd.Parameters.AddWithValue("@email", regemail);
+            cmd.Connection = connect;
             MySqlDataReader register = cmd.ExecuteReader();
-                connect.Close();
+            connect.Close();
                 return true;
             }
-        }
 
 
 
@@ -295,8 +292,8 @@ namespace WindowsFormsApplication3
         {
 
         }
-    }
-        }
+}
+}
 
 
 
