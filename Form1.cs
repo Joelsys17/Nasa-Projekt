@@ -123,21 +123,21 @@ namespace WindowsFormsApplication3
 
             if (user == "" || pass == "")
             {
-                label2.Text = ("Var snäll och och fyll i båda fösterna.");
+                label2.Text = ("Please fill out both username and password to log in");
                 return;
             }
 
         bool r = validate_login(user, pass);
             if (r)
             {
-                label2.Text = ("Hej Marcus!");
+                label2.Text = ("Welcome!");
                 this.Hide();
                 Form2 form2 = new Form2();
                 form2.ShowDialog();
                 this.Show();
             }
             else
-                label2.Text = ("Användarnamnet eller lössenordet är inkorrekt!");
+                label2.Text = ("The username or password is incorrect!");
         }
 
 
