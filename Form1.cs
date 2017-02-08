@@ -26,7 +26,7 @@ namespace WindowsFormsApplication3
             {
                 try
                 {
-                    conn = "Server=localhost;Database=sys17;Uid=root;Pwd=;";
+                    conn = "Server=81.226.64.94;Database=sys17;Uid=username;Pwd=password;";
                     connect = new MySqlConnection(conn);
                     connect.Open();
                 }
