@@ -17,7 +17,8 @@ namespace WindowsFormsApplication3
         {
             private string conn;
             private MySqlConnection connect;
-            public Form1()
+        bool exists = false;
+        public Form1()
             {
             InitializeComponent();            
         }
@@ -56,7 +57,26 @@ namespace WindowsFormsApplication3
                 return false;
                 }
             }
-        protected override void WndProc(ref Message m)
+
+        private bool validate_register(string reguser, string regpass, string regemail)
+        {
+            db_connection();
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.Connection = connect;
+            cmd.CommandText = "INSERT INTO members (`Username`, `Password`, `Email`) VALUES (@username, @password, @email)";
+            cmd.CommandText = "SELECT count(*) FROM `members` WHERE Username= @Username";
+            cmd.Parameters.AddWithValue("@username", reguser);
+            cmd.Parameters.AddWithValue("@password", regpass);
+            cmd.Parameters.AddWithValue("@email", regemail);
+            MySqlDataReader register = cmd.ExecuteReader();
+                connect.Close();
+                return true;
+            }
+        }
+
+
+
+    protected override void WndProc(ref Message m)
         {
             switch (m.Msg)
             {
@@ -143,8 +163,31 @@ namespace WindowsFormsApplication3
 
         private void RegisterButton2(object sender, EventArgs e)
         {
+            string reguser = regusername.Text;
+            string regpass = regpassword.Text;
+            string regemail = regemailadress.Text;
 
+            if (reguser == "" || regpass == "")
+            {
+                labelreg.Text = ("Please fill out all the information!");
+                return;
+            }
+
+            if (!regemail.Contains("@"))
+            {
+                labelreg.Text = ("Please enter a valid email adress!");
+                return;
+            }
+
+            bool r = validate_register(reguser, regpass, regemail);
+            if (r)
+            {
+                labelreg.Text = ("Registration complete!");
+            }
+            else
+                labelreg.Text = ("The username or password is incorrect!");
         }
+
 
         private void Textbox1(object sender, EventArgs e)
         {
