@@ -16,5 +16,20 @@ namespace WindowsFormsApplication3
         {
             InitializeComponent();
         }
+
+        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
