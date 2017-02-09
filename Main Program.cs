@@ -43,19 +43,29 @@ namespace WindowsFormsApplication3
 
         private void NewsFeedButton(object sender, EventArgs e)
         {
+            panel2.Visible = false;
+            panel3.Visible = false;
+            panel4.Visible = true;         
+            panel4.Refresh();
 
-        }
+            }
+
 
         private void CalendarButton(object sender, EventArgs e)
         {
-            panel2.Visible = true;
+            panel4.Visible = false;
             panel3.Visible = false;
+            panel2.Visible = true;
+            panel2.Location =  new Point (151, 11);
+
         }
 
         private void ForumButton(object sender, EventArgs e)
         {
-            panel3.Visible = true;
+            panel4.Visible = false;
             panel2.Visible = false;
+            panel3.Visible = true;
+            panel3.Location = new Point(151, 11);
         }
 
         private void MinimizeWindow(object sender, EventArgs e)
