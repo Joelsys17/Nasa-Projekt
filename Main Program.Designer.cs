@@ -46,6 +46,8 @@
             this.Stream = new ns1.BunifuCustomLabel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel2 = new ns1.BunifuCustomLabel();
+            this.bunifuCustomLabel3 = new ns1.BunifuCustomLabel();
+            this.bunifuCustomLabel4 = new ns1.BunifuCustomLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
@@ -293,6 +295,8 @@
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.bunifuCustomLabel4);
+            this.panel7.Controls.Add(this.bunifuCustomLabel3);
             this.panel7.Controls.Add(this.webBrowser2);
             this.panel7.Controls.Add(this.webBrowser1);
             this.panel7.Controls.Add(this.Stream);
@@ -306,16 +310,16 @@
             // 
             // webBrowser2
             // 
-            this.webBrowser2.Location = new System.Drawing.Point(443, 283);
+            this.webBrowser2.Location = new System.Drawing.Point(339, 381);
             this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser2.Name = "webBrowser2";
-            this.webBrowser2.Size = new System.Drawing.Size(377, 325);
-            this.webBrowser2.TabIndex = 3;
+            this.webBrowser2.Size = new System.Drawing.Size(425, 306);
+            this.webBrowser2.TabIndex = 2;
             this.webBrowser2.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser2_DocumentCompleted);
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(12, 75);
+            this.webBrowser1.Location = new System.Drawing.Point(15, 49);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(425, 306);
@@ -327,7 +331,7 @@
             this.Stream.AutoSize = true;
             this.Stream.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Stream.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Stream.Location = new System.Drawing.Point(384, 43);
+            this.Stream.Location = new System.Drawing.Point(471, 50);
             this.Stream.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Stream.Name = "Stream";
             this.Stream.Size = new System.Drawing.Size(96, 29);
@@ -356,6 +360,30 @@
             this.bunifuCustomLabel2.Size = new System.Drawing.Size(131, 29);
             this.bunifuCustomLabel2.TabIndex = 2;
             this.bunifuCustomLabel2.Text = "Newsfeed";
+            // 
+            // bunifuCustomLabel3
+            // 
+            this.bunifuCustomLabel3.AutoSize = true;
+            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(485, 326);
+            this.bunifuCustomLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(133, 29);
+            this.bunifuCustomLabel3.TabIndex = 3;
+            this.bunifuCustomLabel3.Text = "Nasa EDU";
+            // 
+            // bunifuCustomLabel4
+            // 
+            this.bunifuCustomLabel4.AutoSize = true;
+            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.bunifuCustomLabel4.Location = new System.Drawing.Point(159, 17);
+            this.bunifuCustomLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(61, 29);
+            this.bunifuCustomLabel4.TabIndex = 4;
+            this.bunifuCustomLabel4.Text = "ISS ";
             // 
             // Form2
             // 
@@ -405,5 +433,7 @@
         private ns1.BunifuCustomLabel Stream;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.WebBrowser webBrowser2;
+        private ns1.BunifuCustomLabel bunifuCustomLabel4;
+        private ns1.BunifuCustomLabel bunifuCustomLabel3;
     }
 }
