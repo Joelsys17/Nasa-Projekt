@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.IO;
+using System.Net;
+using Newtonsoft.Json;
 
 namespace WindowsFormsApplication3
 {
@@ -78,6 +82,13 @@ namespace WindowsFormsApplication3
             Close();
         }
 
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+        }
     }
 }

@@ -151,3 +151,6 @@ C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\obj\D
 C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\obj\Debug\WindowsFormsApplication3.Form2.resources
 C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
 C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\bin\Debug\Newtonsoft.Json.xml

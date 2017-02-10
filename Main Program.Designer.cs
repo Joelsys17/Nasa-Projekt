@@ -254,6 +254,7 @@
             this.panel4.Size = new System.Drawing.Size(864, 613);
             this.panel4.TabIndex = 13;
             this.panel4.Visible = false;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // bunifuCustomLabel2
             // 
@@ -272,7 +273,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(2914, 680);
+            this.ClientSize = new System.Drawing.Size(1101, 680);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
