@@ -124,6 +124,7 @@ namespace WindowsFormsApplication3
 
         private void CloseWindow(object sender, EventArgs e)
         {
+            Environment.Exit(1);
             Close();
         }
 
