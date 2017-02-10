@@ -284,9 +284,8 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.panel7);
             this.panel3.Controls.Add(this.bunifuCustomLabel1);
-            this.panel3.Location = new System.Drawing.Point(1105, 11);
+            this.panel3.Location = new System.Drawing.Point(2, 2);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(864, 613);
@@ -297,10 +296,11 @@
             // 
             this.panel7.Controls.Add(this.bunifuCustomLabel4);
             this.panel7.Controls.Add(this.bunifuCustomLabel3);
+            this.panel7.Controls.Add(this.panel3);
             this.panel7.Controls.Add(this.webBrowser2);
             this.panel7.Controls.Add(this.webBrowser1);
             this.panel7.Controls.Add(this.Stream);
-            this.panel7.Location = new System.Drawing.Point(2, 2);
+            this.panel7.Location = new System.Drawing.Point(1105, 34);
             this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(864, 613);
@@ -331,7 +331,7 @@
             this.Stream.AutoSize = true;
             this.Stream.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Stream.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Stream.Location = new System.Drawing.Point(471, 50);
+            this.Stream.Location = new System.Drawing.Point(425, 6);
             this.Stream.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Stream.Name = "Stream";
             this.Stream.Size = new System.Drawing.Size(96, 29);
@@ -366,7 +366,7 @@
             this.bunifuCustomLabel3.AutoSize = true;
             this.bunifuCustomLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(485, 326);
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(491, 340);
             this.bunifuCustomLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
             this.bunifuCustomLabel3.Size = new System.Drawing.Size(133, 29);
@@ -378,7 +378,7 @@
             this.bunifuCustomLabel4.AutoSize = true;
             this.bunifuCustomLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(159, 17);
+            this.bunifuCustomLabel4.Location = new System.Drawing.Point(143, 17);
             this.bunifuCustomLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
             this.bunifuCustomLabel4.Size = new System.Drawing.Size(61, 29);
@@ -390,9 +390,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(1932, 680);
+            this.ClientSize = new System.Drawing.Size(1104, 680);
+            this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.bunifuImageButton2);
             this.Controls.Add(this.bunifuImageButton1);
