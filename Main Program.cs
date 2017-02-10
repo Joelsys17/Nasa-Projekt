@@ -78,6 +78,7 @@ namespace WindowsFormsApplication3
         {
             panel2.Visible = false;
             panel3.Visible = false;
+            panel7.Visible = false;
             panel4.Visible = true;         
             panel4.Refresh();
 
@@ -87,6 +88,7 @@ namespace WindowsFormsApplication3
         {
             panel4.Visible = false;
             panel3.Visible = false;
+            panel7.Visible = false;
             panel2.Visible = true;
             panel2.Location =  new Point (151, 11);
 
@@ -99,6 +101,7 @@ namespace WindowsFormsApplication3
         {
             panel4.Visible = false;
             panel2.Visible = false;
+            panel3.Visible = false;
             panel7.Visible = true;
             panel7.Location = new Point(151, 11);
         }
