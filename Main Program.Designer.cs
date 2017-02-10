@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.StreamButton = new ns1.BunifuFlatButton();
             this.bunifuFlatButton2 = new ns1.BunifuFlatButton();
             this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
             this.bunifuFlatButton3 = new ns1.BunifuFlatButton();
@@ -39,6 +40,10 @@
             this.bunifuImageButton2 = new ns1.BunifuImageButton();
             this.bunifuCustomLabel1 = new ns1.BunifuCustomLabel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.webBrowser2 = new System.Windows.Forms.WebBrowser();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.Stream = new ns1.BunifuCustomLabel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel2 = new ns1.BunifuCustomLabel();
             this.panel1.SuspendLayout();
@@ -46,12 +51,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.panel3.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(38)))));
+            this.panel1.Controls.Add(this.StreamButton);
             this.panel1.Controls.Add(this.bunifuFlatButton2);
             this.panel1.Controls.Add(this.bunifuFlatButton1);
             this.panel1.Controls.Add(this.bunifuFlatButton3);
@@ -60,6 +67,44 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(122, 680);
             this.panel1.TabIndex = 0;
+            // 
+            // StreamButton
+            // 
+            this.StreamButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(38)))));
+            this.StreamButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.StreamButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(38)))));
+            this.StreamButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.StreamButton.BorderRadius = 0;
+            this.StreamButton.ButtonText = "Stream";
+            this.StreamButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.StreamButton.DisabledColor = System.Drawing.Color.Gray;
+            this.StreamButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StreamButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.StreamButton.Iconimage = null;
+            this.StreamButton.Iconimage_right = null;
+            this.StreamButton.Iconimage_right_Selected = null;
+            this.StreamButton.Iconimage_Selected = null;
+            this.StreamButton.IconMarginLeft = 0;
+            this.StreamButton.IconMarginRight = 0;
+            this.StreamButton.IconRightVisible = true;
+            this.StreamButton.IconRightZoom = 0D;
+            this.StreamButton.IconVisible = true;
+            this.StreamButton.IconZoom = 90D;
+            this.StreamButton.IsTab = false;
+            this.StreamButton.Location = new System.Drawing.Point(25, 118);
+            this.StreamButton.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.StreamButton.Name = "StreamButton";
+            this.StreamButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(38)))));
+            this.StreamButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(38)))));
+            this.StreamButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.StreamButton.selected = false;
+            this.StreamButton.Size = new System.Drawing.Size(74, 35);
+            this.StreamButton.TabIndex = 11;
+            this.StreamButton.Text = "Stream";
+            this.StreamButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.StreamButton.Textcolor = System.Drawing.Color.White;
+            this.StreamButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StreamButton.Click += new System.EventHandler(this.StreamButton2);
             // 
             // bunifuFlatButton2
             // 
@@ -122,7 +167,7 @@
             this.bunifuFlatButton1.IconVisible = true;
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(25, 119);
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(25, 159);
             this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(31)))), ((int)(((byte)(38)))));
@@ -237,6 +282,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.panel7);
             this.panel3.Controls.Add(this.bunifuCustomLabel1);
             this.panel3.Location = new System.Drawing.Point(1105, 11);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
@@ -244,6 +290,49 @@
             this.panel3.Size = new System.Drawing.Size(864, 613);
             this.panel3.TabIndex = 12;
             this.panel3.Visible = false;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.webBrowser2);
+            this.panel7.Controls.Add(this.webBrowser1);
+            this.panel7.Controls.Add(this.Stream);
+            this.panel7.Location = new System.Drawing.Point(2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(864, 613);
+            this.panel7.TabIndex = 13;
+            this.panel7.Visible = false;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
+            // 
+            // webBrowser2
+            // 
+            this.webBrowser2.Location = new System.Drawing.Point(443, 283);
+            this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser2.Name = "webBrowser2";
+            this.webBrowser2.Size = new System.Drawing.Size(377, 325);
+            this.webBrowser2.TabIndex = 3;
+            this.webBrowser2.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser2_DocumentCompleted);
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(12, 75);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(425, 306);
+            this.webBrowser1.TabIndex = 2;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
+            // 
+            // Stream
+            // 
+            this.Stream.AutoSize = true;
+            this.Stream.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Stream.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Stream.Location = new System.Drawing.Point(384, 43);
+            this.Stream.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Stream.Name = "Stream";
+            this.Stream.Size = new System.Drawing.Size(96, 29);
+            this.Stream.TabIndex = 1;
+            this.Stream.Text = "Stream";
             // 
             // panel4
             // 
@@ -273,7 +362,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(3013, 680);
+            this.ClientSize = new System.Drawing.Size(1932, 680);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -289,6 +378,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.ResumeLayout(false);
@@ -309,5 +400,10 @@
         private ns1.BunifuCustomLabel bunifuCustomLabel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.MonthCalendar monthCalendar2;
+        private ns1.BunifuFlatButton StreamButton;
+        private System.Windows.Forms.Panel panel7;
+        private ns1.BunifuCustomLabel Stream;
+        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.WebBrowser webBrowser2;
     }
 }

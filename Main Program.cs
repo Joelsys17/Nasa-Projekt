@@ -45,6 +45,35 @@ namespace WindowsFormsApplication3
 
         }
 
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
+
+        private void webBrowser2_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+
+        {
+
+            webBrowser1.Navigate("https://www.youtube.com/embed/qzMQza8xZCc?autoplay=1");
+            webBrowser2.Navigate("https://www.youtube.com/watch?v=UdmHHpAsMVw");
+        }
+
+       
+        
         private void NewsFeedButton(object sender, EventArgs e)
         {
             panel2.Visible = false;
@@ -53,7 +82,6 @@ namespace WindowsFormsApplication3
             panel4.Refresh();
 
             }
-
 
         private void CalendarButton(object sender, EventArgs e)
         {
@@ -64,14 +92,28 @@ namespace WindowsFormsApplication3
 
         }
 
-        private void ForumButton(object sender, EventArgs e)
+    
+
+
+        private void StreamButton2(object sender, EventArgs e)
         {
             panel4.Visible = false;
             panel2.Visible = false;
-            panel3.Visible = true;
-            panel3.Location = new Point(151, 11);
+            panel7.Visible = true;
+            panel7.Location = new Point(151, 11);
         }
 
+        private void ForumButton(object sender, EventArgs e)
+        {
+
+            panel4.Visible = false;
+            panel2.Visible = false;
+            panel7.Visible = false;
+            panel3.Visible = true;
+            panel3.Location = new Point(151, 11);
+
+           
+        }
         private void MinimizeWindow(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
@@ -82,13 +124,6 @@ namespace WindowsFormsApplication3
             Close();
         }
 
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-        }
+        
     }
 }
