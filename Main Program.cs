@@ -108,7 +108,6 @@ namespace WindowsFormsApplication3
 
         private void ForumButton(object sender, EventArgs e)
         {
-
             panel4.Visible = false;
             panel2.Visible = false;
             panel7.Visible = false;
@@ -128,6 +127,9 @@ namespace WindowsFormsApplication3
             Close();
         }
 
-        
+        private void webBrowser3_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            webBrowser3.Navigate("localhost");
+        }
     }
 }
