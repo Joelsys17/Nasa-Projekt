@@ -69,7 +69,7 @@ namespace WindowsFormsApplication3
         {
 
             webBrowser1.Navigate("https://www.youtube.com/embed/qzMQza8xZCc?autoplay=1");
-            webBrowser2.Navigate("https://www.youtube.com/watch?v=UdmHHpAsMVw");
+            webBrowser2.Navigate("https://www.youtube.com/embed/UdmHHpAsMVw?autoplay=1");
         }
 
        
