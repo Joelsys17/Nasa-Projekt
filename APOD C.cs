@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Net;
 using Newtonsoft.Json;
 
-namespace WindowsFormsApplication3
+namespace NasaProjekt
 {
     class Class1
     {

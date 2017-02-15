@@ -12,7 +12,7 @@ using System.IO;
 using System.Net;
 using Newtonsoft.Json;
 
-namespace WindowsFormsApplication3
+namespace NasaProjekt
 {
     public partial class Form2 : Form
     {

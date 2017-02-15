@@ -11,7 +11,7 @@ using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
 using System.Runtime.InteropServices;
 
-namespace WindowsFormsApplication3
+namespace NasaProjekt
 {
         public partial class Form1 : Form
         {

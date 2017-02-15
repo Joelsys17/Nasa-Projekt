@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication3", "WindowsFormsApplication3.csproj", "{A6E3C006-EEC9-4CDC-9A28-8F2AD7EA69AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaProjekt", "NasaProjekt.csproj", "{A6E3C006-EEC9-4CDC-9A28-8F2AD7EA69AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
