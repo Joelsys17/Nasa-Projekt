@@ -30,3 +30,6 @@ C:\Users\Marcus\Documents\Visual Studio 2015\Projects\Nasa-Projekt\obj\Debug\Win
 C:\Users\Marcus\Documents\Visual Studio 2015\Projects\Nasa-Projekt\obj\Debug\NasaProjekt.csproj.GenerateResource.Cache
 C:\Users\Marcus\Documents\Visual Studio 2015\Projects\Nasa-Projekt\obj\Debug\WindowsFormsApplication3.exe
 C:\Users\Marcus\Documents\Visual Studio 2015\Projects\Nasa-Projekt\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\Daniel Andersson\Documents\GitHub\Nasa-Projekt\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\Daniel Andersson\Documents\GitHub\Nasa-Projekt\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\Daniel Andersson\Documents\GitHub\Nasa-Projekt\obj\Debug\WindowsFormsApplication3.pdb

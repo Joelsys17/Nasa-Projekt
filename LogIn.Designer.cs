@@ -29,43 +29,43 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation9 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            BunifuAnimatorNS.Animation animation10 = new BunifuAnimatorNS.Animation();
             this.bunifuElipse1 = new ns1.BunifuElipse(this.components);
-            this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
+            this.LogInRegisterButton = new ns1.BunifuFlatButton();
             this.slide1 = new System.Windows.Forms.Panel();
             this.labelreg = new System.Windows.Forms.Label();
-            this.bunifuCustomLabel8 = new ns1.BunifuCustomLabel();
-            this.bunifuCustomLabel3 = new ns1.BunifuCustomLabel();
-            this.bunifuCustomLabel2 = new ns1.BunifuCustomLabel();
+            this.LogInEmailLabel = new ns1.BunifuCustomLabel();
+            this.RegInPasswordLabel = new ns1.BunifuCustomLabel();
+            this.LogInUsernameLabel = new ns1.BunifuCustomLabel();
             this.regemailadress = new ns1.BunifuMetroTextbox();
             this.regpassword = new ns1.BunifuMetroTextbox();
             this.regusername = new ns1.BunifuMetroTextbox();
-            this.bunifuCustomLabel1 = new ns1.BunifuCustomLabel();
+            this.LogInRegisterLabel = new ns1.BunifuCustomLabel();
             this.UserLoginPass = new ns1.BunifuMetroTextbox();
             this.slide2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel10 = new ns1.BunifuCustomLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel9 = new ns1.BunifuCustomLabel();
-            this.bunifuCustomLabel4 = new ns1.BunifuCustomLabel();
-            this.bunifuCustomLabel5 = new ns1.BunifuCustomLabel();
-            this.bunifuFlatButton2 = new ns1.BunifuFlatButton();
+            this.LogInPasswordLabel = new ns1.BunifuCustomLabel();
+            this.UseNameEmailLabel = new ns1.BunifuCustomLabel();
+            this.LogInLogInButton = new ns1.BunifuFlatButton();
             this.UserLogin = new ns1.BunifuMetroTextbox();
-            this.bunifuCustomLabel6 = new ns1.BunifuCustomLabel();
+            this.LogInLabel = new ns1.BunifuCustomLabel();
             this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.bunifuCustomLabel7 = new ns1.BunifuCustomLabel();
-            this.bunifuFlatButton3 = new ns1.BunifuFlatButton();
-            this.bunifuFlatButton4 = new ns1.BunifuFlatButton();
-            this.bunifuImageButton1 = new ns1.BunifuImageButton();
-            this.bunifuImageButton2 = new ns1.BunifuImageButton();
+            this.LogInNasaInformationServiceLabel = new ns1.BunifuCustomLabel();
+            this.LogInRegisterScreenButton = new ns1.BunifuFlatButton();
+            this.LogInLogInScreenButton = new ns1.BunifuFlatButton();
+            this.Minimize = new ns1.BunifuImageButton();
+            this.ExitButton = new ns1.BunifuImageButton();
             this.bunifuTransition2 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.slide1.SuspendLayout();
             this.slide2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Minimize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExitButton)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -73,56 +73,56 @@
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this;
             // 
-            // bunifuFlatButton1
+            // LogInRegisterButton
             // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "Register";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition2.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Garamond", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = null;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 90D;
-            this.bunifuFlatButton1.IsTab = true;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(160, 346);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(113, 37);
-            this.bunifuFlatButton1.TabIndex = 1;
-            this.bunifuFlatButton1.Text = "Register";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton1.Click += new System.EventHandler(this.RegisterButton2);
+            this.LogInRegisterButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInRegisterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInRegisterButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LogInRegisterButton.BorderRadius = 0;
+            this.LogInRegisterButton.ButtonText = "Register";
+            this.LogInRegisterButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition2.SetDecoration(this.LogInRegisterButton, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.LogInRegisterButton, BunifuAnimatorNS.DecorationType.None);
+            this.LogInRegisterButton.DisabledColor = System.Drawing.Color.Gray;
+            this.LogInRegisterButton.Font = new System.Drawing.Font("Garamond", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInRegisterButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.LogInRegisterButton.Iconimage = null;
+            this.LogInRegisterButton.Iconimage_right = null;
+            this.LogInRegisterButton.Iconimage_right_Selected = null;
+            this.LogInRegisterButton.Iconimage_Selected = null;
+            this.LogInRegisterButton.IconMarginLeft = 0;
+            this.LogInRegisterButton.IconMarginRight = 0;
+            this.LogInRegisterButton.IconRightVisible = true;
+            this.LogInRegisterButton.IconRightZoom = 0D;
+            this.LogInRegisterButton.IconVisible = true;
+            this.LogInRegisterButton.IconZoom = 90D;
+            this.LogInRegisterButton.IsTab = true;
+            this.LogInRegisterButton.Location = new System.Drawing.Point(160, 346);
+            this.LogInRegisterButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.LogInRegisterButton.Name = "LogInRegisterButton";
+            this.LogInRegisterButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInRegisterButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInRegisterButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.LogInRegisterButton.selected = false;
+            this.LogInRegisterButton.Size = new System.Drawing.Size(113, 37);
+            this.LogInRegisterButton.TabIndex = 1;
+            this.LogInRegisterButton.Text = "Register";
+            this.LogInRegisterButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LogInRegisterButton.Textcolor = System.Drawing.Color.White;
+            this.LogInRegisterButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInRegisterButton.Click += new System.EventHandler(this.RegisterButton2);
             // 
             // slide1
             // 
             this.slide1.Controls.Add(this.labelreg);
-            this.slide1.Controls.Add(this.bunifuCustomLabel8);
-            this.slide1.Controls.Add(this.bunifuCustomLabel3);
-            this.slide1.Controls.Add(this.bunifuCustomLabel2);
+            this.slide1.Controls.Add(this.LogInEmailLabel);
+            this.slide1.Controls.Add(this.RegInPasswordLabel);
+            this.slide1.Controls.Add(this.LogInUsernameLabel);
             this.slide1.Controls.Add(this.regemailadress);
             this.slide1.Controls.Add(this.regpassword);
-            this.slide1.Controls.Add(this.bunifuFlatButton1);
+            this.slide1.Controls.Add(this.LogInRegisterButton);
             this.slide1.Controls.Add(this.regusername);
-            this.slide1.Controls.Add(this.bunifuCustomLabel1);
+            this.slide1.Controls.Add(this.LogInRegisterLabel);
             this.bunifuTransition2.SetDecoration(this.slide1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition1.SetDecoration(this.slide1, BunifuAnimatorNS.DecorationType.None);
             this.slide1.Location = new System.Drawing.Point(23, 90);
@@ -143,47 +143,47 @@
             this.labelreg.Size = new System.Drawing.Size(0, 22);
             this.labelreg.TabIndex = 7;
             // 
-            // bunifuCustomLabel8
+            // LogInEmailLabel
             // 
-            this.bunifuCustomLabel8.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel8, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel8, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel8.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel8.Location = new System.Drawing.Point(32, 247);
-            this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
-            this.bunifuCustomLabel8.Size = new System.Drawing.Size(56, 22);
-            this.bunifuCustomLabel8.TabIndex = 6;
-            this.bunifuCustomLabel8.Text = "Email";
-            this.bunifuCustomLabel8.Click += new System.EventHandler(this.SmallLabel2);
+            this.LogInEmailLabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.LogInEmailLabel, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.LogInEmailLabel, BunifuAnimatorNS.DecorationType.None);
+            this.LogInEmailLabel.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInEmailLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.LogInEmailLabel.Location = new System.Drawing.Point(32, 247);
+            this.LogInEmailLabel.Name = "LogInEmailLabel";
+            this.LogInEmailLabel.Size = new System.Drawing.Size(56, 22);
+            this.LogInEmailLabel.TabIndex = 6;
+            this.LogInEmailLabel.Text = "Email";
+            this.LogInEmailLabel.Click += new System.EventHandler(this.SmallLabel2);
             // 
-            // bunifuCustomLabel3
+            // RegInPasswordLabel
             // 
-            this.bunifuCustomLabel3.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(32, 164);
-            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(83, 22);
-            this.bunifuCustomLabel3.TabIndex = 4;
-            this.bunifuCustomLabel3.Text = "Password";
-            this.bunifuCustomLabel3.Click += new System.EventHandler(this.SmallLabel3);
+            this.RegInPasswordLabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.RegInPasswordLabel, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.RegInPasswordLabel, BunifuAnimatorNS.DecorationType.None);
+            this.RegInPasswordLabel.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegInPasswordLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.RegInPasswordLabel.Location = new System.Drawing.Point(32, 164);
+            this.RegInPasswordLabel.Name = "RegInPasswordLabel";
+            this.RegInPasswordLabel.Size = new System.Drawing.Size(83, 22);
+            this.RegInPasswordLabel.TabIndex = 4;
+            this.RegInPasswordLabel.Text = "Password";
+            this.RegInPasswordLabel.Click += new System.EventHandler(this.SmallLabel3);
             // 
-            // bunifuCustomLabel2
+            // LogInUsernameLabel
             // 
-            this.bunifuCustomLabel2.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(32, 78);
-            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(87, 22);
-            this.bunifuCustomLabel2.TabIndex = 3;
-            this.bunifuCustomLabel2.Text = "Username";
-            this.bunifuCustomLabel2.Click += new System.EventHandler(this.SmallLabel1);
+            this.LogInUsernameLabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.LogInUsernameLabel, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.LogInUsernameLabel, BunifuAnimatorNS.DecorationType.None);
+            this.LogInUsernameLabel.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInUsernameLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.LogInUsernameLabel.Location = new System.Drawing.Point(32, 78);
+            this.LogInUsernameLabel.Name = "LogInUsernameLabel";
+            this.LogInUsernameLabel.Size = new System.Drawing.Size(87, 22);
+            this.LogInUsernameLabel.TabIndex = 3;
+            this.LogInUsernameLabel.Text = "Username";
+            this.LogInUsernameLabel.Click += new System.EventHandler(this.SmallLabel1);
             // 
             // regemailadress
             // 
@@ -245,19 +245,19 @@
             this.regusername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.regusername.OnValueChanged += new System.EventHandler(this.TextBox1);
             // 
-            // bunifuCustomLabel1
+            // LogInRegisterLabel
             // 
-            this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Futura LT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(154, 27);
-            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(119, 38);
-            this.bunifuCustomLabel1.TabIndex = 0;
-            this.bunifuCustomLabel1.Text = "Register";
-            this.bunifuCustomLabel1.Click += new System.EventHandler(this.BigLabel2);
+            this.LogInRegisterLabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.LogInRegisterLabel, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.LogInRegisterLabel, BunifuAnimatorNS.DecorationType.None);
+            this.LogInRegisterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInRegisterLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.LogInRegisterLabel.Location = new System.Drawing.Point(154, 27);
+            this.LogInRegisterLabel.Name = "LogInRegisterLabel";
+            this.LogInRegisterLabel.Size = new System.Drawing.Size(134, 36);
+            this.LogInRegisterLabel.TabIndex = 0;
+            this.LogInRegisterLabel.Text = "Register";
+            this.LogInRegisterLabel.Click += new System.EventHandler(this.BigLabel2);
             // 
             // UserLoginPass
             // 
@@ -285,12 +285,12 @@
             this.slide2.Controls.Add(this.bunifuCustomLabel10);
             this.slide2.Controls.Add(this.label1);
             this.slide2.Controls.Add(this.bunifuCustomLabel9);
-            this.slide2.Controls.Add(this.bunifuCustomLabel4);
+            this.slide2.Controls.Add(this.LogInPasswordLabel);
             this.slide2.Controls.Add(this.UserLoginPass);
-            this.slide2.Controls.Add(this.bunifuCustomLabel5);
-            this.slide2.Controls.Add(this.bunifuFlatButton2);
+            this.slide2.Controls.Add(this.UseNameEmailLabel);
+            this.slide2.Controls.Add(this.LogInLogInButton);
             this.slide2.Controls.Add(this.UserLogin);
-            this.slide2.Controls.Add(this.bunifuCustomLabel6);
+            this.slide2.Controls.Add(this.LogInLabel);
             this.bunifuTransition2.SetDecoration(this.slide2, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition1.SetDecoration(this.slide2, BunifuAnimatorNS.DecorationType.None);
             this.slide2.Location = new System.Drawing.Point(609, 90);
@@ -346,72 +346,72 @@
             this.bunifuCustomLabel9.Size = new System.Drawing.Size(0, 37);
             this.bunifuCustomLabel9.TabIndex = 6;
             // 
-            // bunifuCustomLabel4
+            // LogInPasswordLabel
             // 
-            this.bunifuCustomLabel4.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel4, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel4, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(44, 221);
-            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(83, 22);
-            this.bunifuCustomLabel4.TabIndex = 4;
-            this.bunifuCustomLabel4.Text = "Password";
-            this.bunifuCustomLabel4.Click += new System.EventHandler(this.SmallLabel5);
+            this.LogInPasswordLabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.LogInPasswordLabel, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.LogInPasswordLabel, BunifuAnimatorNS.DecorationType.None);
+            this.LogInPasswordLabel.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInPasswordLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.LogInPasswordLabel.Location = new System.Drawing.Point(44, 221);
+            this.LogInPasswordLabel.Name = "LogInPasswordLabel";
+            this.LogInPasswordLabel.Size = new System.Drawing.Size(83, 22);
+            this.LogInPasswordLabel.TabIndex = 4;
+            this.LogInPasswordLabel.Text = "Password";
+            this.LogInPasswordLabel.Click += new System.EventHandler(this.SmallLabel5);
             // 
-            // bunifuCustomLabel5
+            // UseNameEmailLabel
             // 
-            this.bunifuCustomLabel5.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel5, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel5, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel5.Location = new System.Drawing.Point(44, 83);
-            this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(143, 22);
-            this.bunifuCustomLabel5.TabIndex = 3;
-            this.bunifuCustomLabel5.Text = "Username/Email";
-            this.bunifuCustomLabel5.Click += new System.EventHandler(this.SmallLabel4);
+            this.UseNameEmailLabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.UseNameEmailLabel, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.UseNameEmailLabel, BunifuAnimatorNS.DecorationType.None);
+            this.UseNameEmailLabel.Font = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UseNameEmailLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.UseNameEmailLabel.Location = new System.Drawing.Point(44, 83);
+            this.UseNameEmailLabel.Name = "UseNameEmailLabel";
+            this.UseNameEmailLabel.Size = new System.Drawing.Size(143, 22);
+            this.UseNameEmailLabel.TabIndex = 3;
+            this.UseNameEmailLabel.Text = "Username/Email";
+            this.UseNameEmailLabel.Click += new System.EventHandler(this.SmallLabel4);
             // 
-            // bunifuFlatButton2
+            // LogInLogInButton
             // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "Log In";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition2.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = null;
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 0;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 90D;
-            this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(183, 346);
-            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(109, 37);
-            this.bunifuFlatButton2.TabIndex = 1;
-            this.bunifuFlatButton2.Text = "Log In";
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton2.Click += new System.EventHandler(this.LogInButton2);
+            this.LogInLogInButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInLogInButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInLogInButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LogInLogInButton.BorderRadius = 0;
+            this.LogInLogInButton.ButtonText = "Log In";
+            this.LogInLogInButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition2.SetDecoration(this.LogInLogInButton, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.LogInLogInButton, BunifuAnimatorNS.DecorationType.None);
+            this.LogInLogInButton.DisabledColor = System.Drawing.Color.Gray;
+            this.LogInLogInButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInLogInButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.LogInLogInButton.Iconimage = null;
+            this.LogInLogInButton.Iconimage_right = null;
+            this.LogInLogInButton.Iconimage_right_Selected = null;
+            this.LogInLogInButton.Iconimage_Selected = null;
+            this.LogInLogInButton.IconMarginLeft = 0;
+            this.LogInLogInButton.IconMarginRight = 0;
+            this.LogInLogInButton.IconRightVisible = true;
+            this.LogInLogInButton.IconRightZoom = 0D;
+            this.LogInLogInButton.IconVisible = true;
+            this.LogInLogInButton.IconZoom = 90D;
+            this.LogInLogInButton.IsTab = false;
+            this.LogInLogInButton.Location = new System.Drawing.Point(183, 346);
+            this.LogInLogInButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.LogInLogInButton.Name = "LogInLogInButton";
+            this.LogInLogInButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInLogInButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInLogInButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.LogInLogInButton.selected = false;
+            this.LogInLogInButton.Size = new System.Drawing.Size(109, 37);
+            this.LogInLogInButton.TabIndex = 1;
+            this.LogInLogInButton.Text = "Log In";
+            this.LogInLogInButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LogInLogInButton.Textcolor = System.Drawing.Color.White;
+            this.LogInLogInButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInLogInButton.Click += new System.EventHandler(this.LogInButton2);
             // 
             // UserLogin
             // 
@@ -433,197 +433,197 @@
             this.UserLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.UserLogin.OnValueChanged += new System.EventHandler(this.TextBox4);
             // 
-            // bunifuCustomLabel6
+            // LogInLabel
             // 
-            this.bunifuCustomLabel6.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel6, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel6, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Futura LT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(176, 27);
-            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(96, 38);
-            this.bunifuCustomLabel6.TabIndex = 0;
-            this.bunifuCustomLabel6.Text = "Log In";
-            this.bunifuCustomLabel6.Click += new System.EventHandler(this.BigLabel3);
+            this.LogInLabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.LogInLabel, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.LogInLabel, BunifuAnimatorNS.DecorationType.None);
+            this.LogInLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.LogInLabel.Location = new System.Drawing.Point(176, 27);
+            this.LogInLabel.Name = "LogInLabel";
+            this.LogInLabel.Size = new System.Drawing.Size(105, 36);
+            this.LogInLabel.TabIndex = 0;
+            this.LogInLabel.Text = "Log In";
+            this.LogInLabel.Click += new System.EventHandler(this.BigLabel3);
             // 
             // bunifuTransition1
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.bunifuTransition1.Cursor = null;
-            animation9.AnimateOnlyDifferences = true;
-            animation9.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation9.BlindCoeff")));
-            animation9.LeafCoeff = 0F;
-            animation9.MaxTime = 1F;
-            animation9.MinTime = 0F;
-            animation9.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation9.MosaicCoeff")));
-            animation9.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation9.MosaicShift")));
-            animation9.MosaicSize = 0;
-            animation9.Padding = new System.Windows.Forms.Padding(0);
-            animation9.RotateCoeff = 0F;
-            animation9.RotateLimit = 0F;
-            animation9.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation9.ScaleCoeff")));
-            animation9.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation9.SlideCoeff")));
-            animation9.TimeCoeff = 0F;
-            animation9.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation9;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation2;
             // 
-            // bunifuCustomLabel7
+            // LogInNasaInformationServiceLabel
             // 
-            this.bunifuCustomLabel7.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel7, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel7, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Futura LT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel7.Location = new System.Drawing.Point(93, 8);
-            this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
-            this.bunifuCustomLabel7.Size = new System.Drawing.Size(352, 38);
-            this.bunifuCustomLabel7.TabIndex = 6;
-            this.bunifuCustomLabel7.Text = "Nasa Information Service";
-            this.bunifuCustomLabel7.Click += new System.EventHandler(this.BigLabel1);
+            this.LogInNasaInformationServiceLabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.LogInNasaInformationServiceLabel, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.LogInNasaInformationServiceLabel, BunifuAnimatorNS.DecorationType.None);
+            this.LogInNasaInformationServiceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInNasaInformationServiceLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.LogInNasaInformationServiceLabel.Location = new System.Drawing.Point(85, 9);
+            this.LogInNasaInformationServiceLabel.Name = "LogInNasaInformationServiceLabel";
+            this.LogInNasaInformationServiceLabel.Size = new System.Drawing.Size(371, 36);
+            this.LogInNasaInformationServiceLabel.TabIndex = 6;
+            this.LogInNasaInformationServiceLabel.Text = "Nasa Information Service";
+            this.LogInNasaInformationServiceLabel.Click += new System.EventHandler(this.BigLabel1);
             // 
-            // bunifuFlatButton3
+            // LogInRegisterScreenButton
             // 
-            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuFlatButton3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.bunifuFlatButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "Register";
-            this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition2.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton3.Font = new System.Drawing.Font("Garamond", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconimage = null;
-            this.bunifuFlatButton3.Iconimage_right = null;
-            this.bunifuFlatButton3.Iconimage_right_Selected = null;
-            this.bunifuFlatButton3.Iconimage_Selected = null;
-            this.bunifuFlatButton3.IconMarginLeft = 0;
-            this.bunifuFlatButton3.IconMarginRight = 0;
-            this.bunifuFlatButton3.IconRightVisible = true;
-            this.bunifuFlatButton3.IconRightZoom = 0D;
-            this.bunifuFlatButton3.IconVisible = true;
-            this.bunifuFlatButton3.IconZoom = 90D;
-            this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(164, 49);
-            this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuFlatButton3.Name = "bunifuFlatButton3";
-            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.Size = new System.Drawing.Size(79, 34);
-            this.bunifuFlatButton3.TabIndex = 7;
-            this.bunifuFlatButton3.Text = "Register";
-            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton3.Click += new System.EventHandler(this.RegisterButton1);
+            this.LogInRegisterScreenButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LogInRegisterScreenButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.LogInRegisterScreenButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInRegisterScreenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LogInRegisterScreenButton.BorderRadius = 0;
+            this.LogInRegisterScreenButton.ButtonText = "Register";
+            this.LogInRegisterScreenButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition2.SetDecoration(this.LogInRegisterScreenButton, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.LogInRegisterScreenButton, BunifuAnimatorNS.DecorationType.None);
+            this.LogInRegisterScreenButton.DisabledColor = System.Drawing.Color.Gray;
+            this.LogInRegisterScreenButton.Font = new System.Drawing.Font("Garamond", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInRegisterScreenButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.LogInRegisterScreenButton.Iconimage = null;
+            this.LogInRegisterScreenButton.Iconimage_right = null;
+            this.LogInRegisterScreenButton.Iconimage_right_Selected = null;
+            this.LogInRegisterScreenButton.Iconimage_Selected = null;
+            this.LogInRegisterScreenButton.IconMarginLeft = 0;
+            this.LogInRegisterScreenButton.IconMarginRight = 0;
+            this.LogInRegisterScreenButton.IconRightVisible = true;
+            this.LogInRegisterScreenButton.IconRightZoom = 0D;
+            this.LogInRegisterScreenButton.IconVisible = true;
+            this.LogInRegisterScreenButton.IconZoom = 90D;
+            this.LogInRegisterScreenButton.IsTab = false;
+            this.LogInRegisterScreenButton.Location = new System.Drawing.Point(164, 49);
+            this.LogInRegisterScreenButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.LogInRegisterScreenButton.Name = "LogInRegisterScreenButton";
+            this.LogInRegisterScreenButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInRegisterScreenButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
+            this.LogInRegisterScreenButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.LogInRegisterScreenButton.selected = false;
+            this.LogInRegisterScreenButton.Size = new System.Drawing.Size(79, 34);
+            this.LogInRegisterScreenButton.TabIndex = 7;
+            this.LogInRegisterScreenButton.Text = "Register";
+            this.LogInRegisterScreenButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LogInRegisterScreenButton.Textcolor = System.Drawing.Color.White;
+            this.LogInRegisterScreenButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInRegisterScreenButton.Click += new System.EventHandler(this.RegisterButton1);
             // 
-            // bunifuFlatButton4
+            // LogInLogInScreenButton
             // 
-            this.bunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuFlatButton4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.bunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton4.BorderRadius = 0;
-            this.bunifuFlatButton4.ButtonText = "Log In";
-            this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition2.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton4.Font = new System.Drawing.Font("Garamond", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.Iconimage = null;
-            this.bunifuFlatButton4.Iconimage_right = null;
-            this.bunifuFlatButton4.Iconimage_right_Selected = null;
-            this.bunifuFlatButton4.Iconimage_Selected = null;
-            this.bunifuFlatButton4.IconMarginLeft = 0;
-            this.bunifuFlatButton4.IconMarginRight = 0;
-            this.bunifuFlatButton4.IconRightVisible = true;
-            this.bunifuFlatButton4.IconRightZoom = 0D;
-            this.bunifuFlatButton4.IconVisible = true;
-            this.bunifuFlatButton4.IconZoom = 90D;
-            this.bunifuFlatButton4.IsTab = false;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(249, 49);
-            this.bunifuFlatButton4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuFlatButton4.Name = "bunifuFlatButton4";
-            this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.selected = false;
-            this.bunifuFlatButton4.Size = new System.Drawing.Size(59, 34);
-            this.bunifuFlatButton4.TabIndex = 8;
-            this.bunifuFlatButton4.Text = "Log In";
-            this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton4.Click += new System.EventHandler(this.LogInButton);
+            this.LogInLogInScreenButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LogInLogInScreenButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.LogInLogInScreenButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInLogInScreenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LogInLogInScreenButton.BorderRadius = 0;
+            this.LogInLogInScreenButton.ButtonText = "Log In";
+            this.LogInLogInScreenButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition2.SetDecoration(this.LogInLogInScreenButton, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.LogInLogInScreenButton, BunifuAnimatorNS.DecorationType.None);
+            this.LogInLogInScreenButton.DisabledColor = System.Drawing.Color.Gray;
+            this.LogInLogInScreenButton.Font = new System.Drawing.Font("Garamond", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInLogInScreenButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.LogInLogInScreenButton.Iconimage = null;
+            this.LogInLogInScreenButton.Iconimage_right = null;
+            this.LogInLogInScreenButton.Iconimage_right_Selected = null;
+            this.LogInLogInScreenButton.Iconimage_Selected = null;
+            this.LogInLogInScreenButton.IconMarginLeft = 0;
+            this.LogInLogInScreenButton.IconMarginRight = 0;
+            this.LogInLogInScreenButton.IconRightVisible = true;
+            this.LogInLogInScreenButton.IconRightZoom = 0D;
+            this.LogInLogInScreenButton.IconVisible = true;
+            this.LogInLogInScreenButton.IconZoom = 90D;
+            this.LogInLogInScreenButton.IsTab = false;
+            this.LogInLogInScreenButton.Location = new System.Drawing.Point(249, 49);
+            this.LogInLogInScreenButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.LogInLogInScreenButton.Name = "LogInLogInScreenButton";
+            this.LogInLogInScreenButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInLogInScreenButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.LogInLogInScreenButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.LogInLogInScreenButton.selected = false;
+            this.LogInLogInScreenButton.Size = new System.Drawing.Size(59, 34);
+            this.LogInLogInScreenButton.TabIndex = 8;
+            this.LogInLogInScreenButton.Text = "Log In";
+            this.LogInLogInScreenButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LogInLogInScreenButton.Textcolor = System.Drawing.Color.White;
+            this.LogInLogInScreenButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogInLogInScreenButton.Click += new System.EventHandler(this.LogInButton);
             // 
-            // bunifuImageButton1
+            // Minimize
             // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuTransition2.SetDecoration(this.bunifuImageButton1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.bunifuImageButton1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(449, 15);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(21, 21);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 9;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            this.bunifuImageButton1.Click += new System.EventHandler(this.MinimizeWindow);
+            this.Minimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.bunifuTransition2.SetDecoration(this.Minimize, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.Minimize, BunifuAnimatorNS.DecorationType.None);
+            this.Minimize.Image = ((System.Drawing.Image)(resources.GetObject("Minimize.Image")));
+            this.Minimize.ImageActive = null;
+            this.Minimize.Location = new System.Drawing.Point(449, 15);
+            this.Minimize.Name = "Minimize";
+            this.Minimize.Size = new System.Drawing.Size(21, 21);
+            this.Minimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Minimize.TabIndex = 9;
+            this.Minimize.TabStop = false;
+            this.Minimize.Zoom = 10;
+            this.Minimize.Click += new System.EventHandler(this.MinimizeWindow);
             // 
-            // bunifuImageButton2
+            // ExitButton
             // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.bunifuTransition2.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition1.SetDecoration(this.bunifuImageButton2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(476, 15);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(21, 21);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton2.TabIndex = 10;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 10;
-            this.bunifuImageButton2.Click += new System.EventHandler(this.CloseWindow);
+            this.ExitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.bunifuTransition2.SetDecoration(this.ExitButton, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this.ExitButton, BunifuAnimatorNS.DecorationType.None);
+            this.ExitButton.Image = ((System.Drawing.Image)(resources.GetObject("ExitButton.Image")));
+            this.ExitButton.ImageActive = null;
+            this.ExitButton.Location = new System.Drawing.Point(476, 15);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(21, 21);
+            this.ExitButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ExitButton.TabIndex = 10;
+            this.ExitButton.TabStop = false;
+            this.ExitButton.Zoom = 10;
+            this.ExitButton.Click += new System.EventHandler(this.CloseWindow);
             // 
             // bunifuTransition2
             // 
             this.bunifuTransition2.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.bunifuTransition2.Cursor = null;
-            animation10.AnimateOnlyDifferences = true;
-            animation10.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.BlindCoeff")));
-            animation10.LeafCoeff = 0F;
-            animation10.MaxTime = 1F;
-            animation10.MinTime = 0F;
-            animation10.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.MosaicCoeff")));
-            animation10.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation10.MosaicShift")));
-            animation10.MosaicSize = 0;
-            animation10.Padding = new System.Windows.Forms.Padding(0);
-            animation10.RotateCoeff = 0F;
-            animation10.RotateLimit = 0F;
-            animation10.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.ScaleCoeff")));
-            animation10.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.SlideCoeff")));
-            animation10.TimeCoeff = 0F;
-            animation10.TransparencyCoeff = 0F;
-            this.bunifuTransition2.DefaultAnimation = animation10;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.bunifuTransition2.DefaultAnimation = animation1;
             // 
             // Form1
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(519, 561);
-            this.Controls.Add(this.bunifuImageButton2);
-            this.Controls.Add(this.bunifuImageButton1);
-            this.Controls.Add(this.bunifuFlatButton4);
-            this.Controls.Add(this.bunifuFlatButton3);
-            this.Controls.Add(this.bunifuCustomLabel7);
+            this.ClientSize = new System.Drawing.Size(551, 561);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.Minimize);
+            this.Controls.Add(this.LogInLogInScreenButton);
+            this.Controls.Add(this.LogInRegisterScreenButton);
+            this.Controls.Add(this.LogInNasaInformationServiceLabel);
             this.Controls.Add(this.slide2);
             this.Controls.Add(this.slide1);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
@@ -636,8 +636,8 @@
             this.slide1.PerformLayout();
             this.slide2.ResumeLayout(false);
             this.slide2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Minimize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExitButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -646,29 +646,29 @@
         #endregion
 
         private ns1.BunifuElipse bunifuElipse1;
-        private ns1.BunifuFlatButton bunifuFlatButton1;
+        private ns1.BunifuFlatButton LogInRegisterButton;
         private System.Windows.Forms.Panel slide1;
-        private ns1.BunifuCustomLabel bunifuCustomLabel3;
-        private ns1.BunifuCustomLabel bunifuCustomLabel2;
+        private ns1.BunifuCustomLabel RegInPasswordLabel;
+        private ns1.BunifuCustomLabel LogInUsernameLabel;
         private ns1.BunifuMetroTextbox regpassword;
         private ns1.BunifuMetroTextbox regusername;
-        private ns1.BunifuCustomLabel bunifuCustomLabel1;
+        private ns1.BunifuCustomLabel LogInRegisterLabel;
         private System.Windows.Forms.Panel slide2;
-        private ns1.BunifuCustomLabel bunifuCustomLabel4;
-        private ns1.BunifuCustomLabel bunifuCustomLabel5;
+        private ns1.BunifuCustomLabel LogInPasswordLabel;
+        private ns1.BunifuCustomLabel UseNameEmailLabel;
         private ns1.BunifuMetroTextbox regemailadress;
-        private ns1.BunifuFlatButton bunifuFlatButton2;
+        private ns1.BunifuFlatButton LogInLogInButton;
         private ns1.BunifuMetroTextbox UserLogin;
-        private ns1.BunifuCustomLabel bunifuCustomLabel6;
+        private ns1.BunifuCustomLabel LogInLabel;
         private BunifuAnimatorNS.BunifuTransition bunifuTransition1;
         private BunifuAnimatorNS.BunifuTransition bunifuTransition2;
-        private ns1.BunifuCustomLabel bunifuCustomLabel7;
-        private ns1.BunifuCustomLabel bunifuCustomLabel8;
+        private ns1.BunifuCustomLabel LogInNasaInformationServiceLabel;
+        private ns1.BunifuCustomLabel LogInEmailLabel;
         private ns1.BunifuMetroTextbox UserLoginPass;
-        private ns1.BunifuFlatButton bunifuFlatButton4;
-        private ns1.BunifuFlatButton bunifuFlatButton3;
-        private ns1.BunifuImageButton bunifuImageButton2;
-        private ns1.BunifuImageButton bunifuImageButton1;
+        private ns1.BunifuFlatButton LogInLogInScreenButton;
+        private ns1.BunifuFlatButton LogInRegisterScreenButton;
+        private ns1.BunifuImageButton ExitButton;
+        private ns1.BunifuImageButton Minimize;
         private System.Windows.Forms.Label label1;
         private ns1.BunifuCustomLabel bunifuCustomLabel9;
         private ns1.BunifuCustomLabel bunifuCustomLabel10;
